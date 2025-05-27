@@ -1,22 +1,35 @@
-# Scheduling System
+# 📅 Sistema de Agendamento - Nexforce
 
-Olá! Eu sou a Daiane Mendes, e este repositório foi criado como parte do estudo de caso para a vaga de estágio em desenvolvimento FullStack na Nexforce.
+Este projeto foi desenvolvido como parte de um estudo de caso para a empresa Nexforce. Ele consiste em um sistema de agendamentos simples, criado com o Frappe Framework, que permite registrar e consultar compromissos de maneira organizada.
 
-## Sobre o Projeto
+## 💡 Funcionalidades
 
-A proposta era desenvolver um sistema de agendamento utilizando o Frappe Framework. Apesar de não ter experiência anterior com Frappe, mergulhei de cabeça na documentação e tentei instalar o ambiente de diferentes formas (Frappe Cloud, Docker, WSL...), mas enfrentei diversos obstáculos técnicos que limitaram meu progresso completo. Ainda assim, consegui estruturar a aplicação e desenvolver os principais componentes do Doctype `Appointment`.
+- Cadastro de agendamentos com data, horário e informações do cliente.
+- Visualização dos agendamentos existentes.
+- Organização por filtros de data ou nome.
+- Sistema básico de CRUD via interface do Frappe.
 
-## O que foi implementado
+## 🚀 Tecnologias Utilizadas
 
-- Estrutura completa do app `scheduling_system`
-- Doctype `Appointment` com os campos especificados
-- Scripts Python e JavaScript associados ao Doctype
-- Organização compatível com os padrões do Frappe
-- Este `README.md` e o arquivo `pyproject.toml` na raiz, conforme solicitado
+- [Frappe Framework](https://frappeframework.com/)
+- Python
+- JavaScript (client-side do Frappe)
+- HTML/CSS (via Frappe)
+- MariaDB / MySQL
 
-## Considerações Finais
+## ⚙️ Como Executar
 
-Mesmo com as dificuldades, não deixei de tentar até o último minuto. Meu objetivo aqui foi mostrar minha capacidade de aprender rapidamente, resolver problemas e manter o comprometimento mesmo diante de desafios técnicos.
+> É necessário ter o Frappe instalado e um ambiente de desenvolvimento ERPNext configurado.
+
+```bash
+# Clone o repositório
+git clone https://github.com/daianesmendes/scheduling.system.git
+
+# Acesse o diretório
+cd scheduling.system
+
+# Adicione o app ao seu site Frappe
+bench --site nomesite install-app scheduling_system
 
 Agradeço pela oportunidade e por considerarem meu esforço. Estou super animada para fazer parte da equipe Nexforce! 🚀
 
