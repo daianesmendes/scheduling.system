@@ -30,9 +30,3 @@ cd scheduling.system
 
 # Adicione o app ao seu site Frappe
 bench --site nomesite install-app scheduling_system
-
-Agradeço pela oportunidade e por considerarem meu esforço. Estou super animada para fazer parte da equipe Nexforce! 🚀
-
-Com carinho,  
-**Daiane Mendes**  
-[mendesdaiane161@gmail.com](mailto:mendesdaiane161@gmail.com)
